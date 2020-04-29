@@ -1,0 +1,57 @@
+body {
+    background-color: aquamarine;
+}
+li {
+    display: inline-block;
+    padding: 5px 50px 10px;
+    font-weight: bolder;
+    font-size: 200%;
+    background-color: rgb(225, 243, 59);
+}
+h1 {
+    color: magenta;
+    text-decoration: overline underline;
+    font-size: 325%;
+}
+#soon {
+    color: red;
+    font-size: 150%;
+}
+footer {
+    color: rgb(9, 18, 100);
+    background-color: rgb(107, 219, 185);
+}
+p#location{
+    background-color: thistle;
+    width: 5.5cm;
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: bold;
+}
+p#visit-us{
+    color: rgb(252, 252, 252);
+    background-color: purple;
+   font-size: 150%;
+    width: 11.4cm;
+}
+#contact{
+    font-weight: bold;}
+    #j{
+        float: right;
+        clear: right;
+    }
+    #join{
+        width: 70%;
+        font-size: 200%;
+        padding-top: 1cm;
+        color: rgb(180, 87, 176);
+    }
+    h3{
+        clear: both;
+        font-size: 200%;
+        color: blue;
+    }
+    .sites{
+        font-size: 200%;
+        font-weight: bold;
+        color: brown;
+    }
