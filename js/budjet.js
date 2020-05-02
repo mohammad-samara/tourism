@@ -1,6 +1,10 @@
 'use strict'
 
 var budjet1 = prompt('enter yor budjet in numbers');
+while (  !((budjet1 > 0 ) || (budjet1 < 0 )) ) {
+   
+    var budjet1 = prompt ('enter your budjet in numbers');
+ }
 budjet1 = (budjet1 / 10) ;
 //function money(){
 
