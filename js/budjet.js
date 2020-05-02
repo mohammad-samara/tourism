@@ -1,4 +1,5 @@
 'use strict'
+function money(){
 var budjet1 = prompt('enter yor budjet in numbers');
 
 if (budjet1 >= 150) {
@@ -15,7 +16,9 @@ if (budjet1 >= 150) {
          }
         
     } ;
+}
 
+function status(){
 
 var confirm1 = confirm("are you doing good today?");
 
@@ -24,3 +27,7 @@ if (!confirm1) {
 } else {
     alert("thats great");
 }
+}
+
+money();
+status();

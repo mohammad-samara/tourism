@@ -1,8 +1,13 @@
 'use strict'
-var name = prompt ('enter your name');
 
+//document.write('<h3>' + 'welcome-' + name + '</h3>');
 
-document.write('<h3>' + 'welcome-' + name + '</h3>');
-
-
+/*Function orderName (params) {
+    var name = prompt ('enter your name') ;
+    return name ;
+}*/
+function orderName(params) {
+var name = prompt ("enter your name") ;
+return name ;   
+}  
 
